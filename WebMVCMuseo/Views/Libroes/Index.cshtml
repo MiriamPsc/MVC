@@ -1,0 +1,106 @@
+﻿@model IEnumerable<WebMVCMuseo.Libro>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.año)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.estatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaCrea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaModifica)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Artista.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Clasificacion.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Editorial.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Idioma.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pais.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoEdicion.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario1.nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.año)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.estatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechaCrea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechaModifica)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Artista.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Clasificacion.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Editorial.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Idioma.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pais.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoEdicion.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuario.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuario1.nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idLibro }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idLibro }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idLibro })
+        </td>
+    </tr>
+}
+
+</table>
