@@ -204,6 +204,8 @@
     <Compile Include="Controllers\TecnicaEsculturasController.cs" />
     <Compile Include="Controllers\TecnicaPinturasController.cs" />
     <Compile Include="Controllers\TiendasController.cs" />
+    <Compile Include="Controllers\TipoArticuloesController.cs" />
+    <Compile Include="Controllers\TipoArtistasController.cs" />
     <Compile Include="CorrienteArtistica.cs">
       <DependentUpon>ModeloMuseo.tt</DependentUpon>
     </Compile>
@@ -696,6 +698,16 @@
     <Content Include="Views\Tiendas\Details.cshtml" />
     <Content Include="Views\Tiendas\Edit.cshtml" />
     <Content Include="Views\Tiendas\Index.cshtml" />
+    <Content Include="Views\TipoArticuloes\Create.cshtml" />
+    <Content Include="Views\TipoArticuloes\Delete.cshtml" />
+    <Content Include="Views\TipoArticuloes\Details.cshtml" />
+    <Content Include="Views\TipoArticuloes\Edit.cshtml" />
+    <Content Include="Views\TipoArticuloes\Index.cshtml" />
+    <Content Include="Views\TipoArtistas\Create.cshtml" />
+    <Content Include="Views\TipoArtistas\Delete.cshtml" />
+    <Content Include="Views\TipoArtistas\Details.cshtml" />
+    <Content Include="Views\TipoArtistas\Edit.cshtml" />
+    <Content Include="Views\TipoArtistas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
