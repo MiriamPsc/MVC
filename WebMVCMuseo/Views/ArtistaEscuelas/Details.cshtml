@@ -1,0 +1,75 @@
+﻿@model WebMVCMuseo.ArtistaEscuela
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ArtistaEscuela</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.estatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idUsuarioCrea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idUsuarioCrea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaCrea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaCrea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idUsuarioModifica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idUsuarioModifica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaModifica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaModifica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Artista.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artista.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Escuela.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Escuela.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idArtistaEscuela }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

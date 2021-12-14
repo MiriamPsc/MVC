@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="52906896e0b149d6b01dcc6e2e7f6446" Name="Diagram1" ZoomLevel="19">
+        <EntityTypeShape EntityType="MuseoModel.Articulo" Width="1.5" PointX="5.25" PointY="123.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ArticuloTienda" Width="1.5" PointX="10.5" PointY="138.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Artista" Width="1.5" PointX="5.25" PointY="141.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ArtistaEscuela" Width="1.5" PointX="7.5" PointY="123.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Audioguia" Width="1.5" PointX="6" PointY="116.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Boleto" Width="1.5" PointX="8.25" PointY="144.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.BoletoExhibicion" Width="1.5" PointX="13.5" PointY="127.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Categoria" Width="1.5" PointX="3" PointY="72.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Clasificacion" Width="1.5" PointX="3" PointY="76.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.CorrienteArtistica" Width="1.5" PointX="3" PointY="80.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.DirectorDeExhibicionExterno" Width="1.5" PointX="3" PointY="84.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Distribuidora" Width="1.5" PointX="3" PointY="89.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Editorial" Width="1.5" PointX="3" PointY="93.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Empleado" Width="1.5" PointX="5.25" PointY="147.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.EmpleadoExhibicion" Width="1.5" PointX="10.5" PointY="127.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.EmpleadoTaller" Width="1.5" PointX="13.5" PointY="135.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.EmpleadoTienda" Width="1.5" PointX="13.5" PointY="140.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Escuela" Width="1.5" PointX="3" PointY="103.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Escultura" Width="1.5" PointX="10.5" PointY="121.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.EsculturaExhibicion" Width="1.5" PointX="15.75" PointY="117.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Evento" Width="1.5" PointX="8.25" PointY="152.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.EventoSala" Width="1.5" PointX="13.5" PointY="131.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Exhibicion" Width="1.5" PointX="8.25" PointY="137.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ExhibicionFotografia" Width="1.5" PointX="15.75" PointY="122.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ExhibicionLibro" Width="1.5" PointX="18.5" PointY="129.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ExhibicionObjeto" Width="1.5" PointX="3" PointY="111.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ExhibicionPelicula" Width="1.5" PointX="15.75" PointY="127.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ExhibicionPintura" Width="1.5" PointX="18.75" PointY="124.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.ExhibicionSala" Width="1.5" PointX="10.5" PointY="134.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.FormatoDeCamara" Width="1.5" PointX="3" PointY="116" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Fotografia" Width="1.5" PointX="8.5" PointY="110.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Grupo" Width="1.5" PointX="6" PointY="111.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Idioma" Width="1.5" PointX="3" PointY="124.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Libro" Width="1.5" PointX="7.5" PointY="130.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Objeto" Width="1.5" PointX="5.25" PointY="154.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Pais" Width="1.5" PointX="3" PointY="132.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Pelicula" Width="1.5" PointX="11.5" PointY="112.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Periodo" Width="1.5" PointX="3" PointY="137.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Pintura" Width="1.5" PointX="13.5" PointY="121" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Productora" Width="1.5" PointX="3" PointY="142.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Proveedor" Width="1.5" PointX="3" PointY="145.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Regalo" Width="1.5" PointX="3" PointY="150" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Sala" Width="1.5" PointX="5.25" PointY="163.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.SalaTaller" Width="1.5" PointX="16.5" PointY="140.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Taller" Width="1.5" PointX="8.25" PointY="160.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TecnicaEscultura" Width="1.5" PointX="3" PointY="163.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TecnicaPintura" Width="1.5" PointX="3" PointY="167.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Tienda" Width="1.5" PointX="8.25" PointY="166.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoArticulo" Width="1.5" PointX="3" PointY="176.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoArtista" Width="1.5" PointX="3" PointY="180.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoBoleto" Width="1.5" PointX="3" PointY="183.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoEdicion" Width="1.5" PointX="3" PointY="188" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoEmpleado" Width="1.5" PointX="3" PointY="191.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoEvento" Width="1.5" PointX="3" PointY="195.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoExhibicion" Width="1.5" PointX="3" PointY="199.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoGrupo" Width="1.5" PointX="3.75" PointY="107.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoObjeto" Width="1.5" PointX="3" PointY="203.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoSala" Width="1.5" PointX="3" PointY="207.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoTaller" Width="1.5" PointX="3" PointY="211.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoTienda" Width="1.5" PointX="3" PointY="215.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.TipoVisita" Width="1.5" PointX="3" PointY="219.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Ubicacion" Width="1.5" PointX="3" PointY="223.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Usuario" Width="1.5" PointX="0.75" PointY="104.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Visita" Width="1.5" PointX="10.5" PointY="165.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuseoModel.Visitante" Width="1.5" PointX="3" PointY="227.375" IsExpanded="true" />
+        <AssociationConnector Association="MuseoModel.FKArticuloCategoria" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloProveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloTiendaArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloTipoArticulo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloTiendaTienda" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloTiendaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArticuloTiendaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArtistaEscuelaArtista" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArtistaTipoArtista" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArtistaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArtistaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaArtista" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFotografiaFotografo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroAutor" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaDirector" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaArtista" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKArtistaEscuelaEscuela" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKAudioguiaEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKAudioguiaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKAudioguiaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoAudioguia" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoExhibicionBoleto" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoRegalo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoTipoBoleto" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaBoleto" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoExhibicionExhibcion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoExhibicionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKBoletoExhibicionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKCategoriaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKCategoriaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKClasificacionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKClasificacionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFotografiaClasificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroClasificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaClasificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaClasificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKCorrienteArtisticaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKCorrienteArtisticaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaCorrienteArtistica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaCorrienteArtistica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKDirectorDeExhibicionExternoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKDirectorDeExhibicionExternoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionDirectorDeExhibicionExterno" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKDistribuidoraUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKDistribuidoraUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaDistribuidora" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEditorialUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEditorialUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroEditorial" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoExhibicionEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTallerEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTiendaEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTipoEmpleado" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionDirectorDeExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaGuia" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoExhibicionExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoExhibicionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoExhibicionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTallerTaller" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTallerUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTallerUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTiendaTienda" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTiendaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEmpleadoTiendaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEscuelaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEscuelaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaExhibicionEscultura" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaPais" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaPeriodo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaTecnicaEscultura" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaExhibicionExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaExhibicionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaExhibicionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoSalaEvento" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoTipoEvento" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoSalaSala" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoSalaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEventoSalaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionFotografiaExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionLibroExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPeliculaExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPinturaExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionSalaExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionTipoExhibicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionFotografiaFotografia" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionFotografiaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionFotografiaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionLibroLibro" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionLibroUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionLibroUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionObjetoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionObjetoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPeliculaPelicula" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPeliculaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPeliculaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPinturaPintura" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPinturaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionPinturaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionSalaSala" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionSalaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKExhibicionSalaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFormatoDeCamaraUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFormatoDeCamaraUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFotografiaFormatoDeCamara" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaFormatoDeCamara" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFotografiaPais" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFotografiaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKFotografiaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKGrupoTipoGrupo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKGrupoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKGrupoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaGrupo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKIdiomaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKIdiomaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroIdioma" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaIdioma" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroPais" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroTipoEdicion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKLibroUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKObjetoPais" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKObjetoPeriodo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKObjetoTipoObjeto" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKObjetoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKObjetoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPaisUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPaisUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculPais" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaPais" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaProductora" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeliculaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeriodoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPeriodoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaPeriodo" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKEsculturaTecnicaPintura" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKPinturaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKProductoraUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKProductoraUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKProveedorUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKProveedorUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKRegaloUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKRegaloUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaTallerSala" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaTipoSala" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaUbicacion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaTallerTaller" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaTallerUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKSalaTallerUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTallerTipoTaller" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTallerUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTallerUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTecnicaEsculturaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTecnicaEsculturaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTecnicaPinturaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTecnicaPinturaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTiendaTipoTienda" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTiendaUbicacion" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTiendaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTiendaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoArticuloUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoArticuloUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoArtistaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoArtistaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoBoletoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoBoletoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoEdicionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoEdicionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoEmpleadoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoEmpleadoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoEventoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoEventoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoExhibicionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoExhibicionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoObjetoUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoObjetoUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoSalaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoSalaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoTallerUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoTallerUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoTiendaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoTiendaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoVisitaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKTipoVisitaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKUbicacionUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKUbicacionUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKUsuarioUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKUsuarioUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitanteUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitanteUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaUsuarioCrea" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaUsuarioModifica" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaTipoVisita" ManuallyRouted="false" />
+        <AssociationConnector Association="MuseoModel.FKVisitaVisitante" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

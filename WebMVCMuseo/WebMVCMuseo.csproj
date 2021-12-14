@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2740B482-8E84-4AD9-8AD8-9B3BEF54AA1F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebMVCMuseo</RootNamespace>
+    <AssemblyName>WebMVCMuseo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44319</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Articulo.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ArticuloTienda.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Artista.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ArtistaEscuela.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Audioguia.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Boleto.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BoletoExhibicion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Categoria.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Clasificacion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ArticuloesController.cs" />
+    <Compile Include="Controllers\ArticuloTiendaController.cs" />
+    <Compile Include="Controllers\ArtistaEscuelasController.cs" />
+    <Compile Include="Controllers\ArtistasController.cs" />
+    <Compile Include="Controllers\AudioguiasController.cs" />
+    <Compile Include="Controllers\BoletoesController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CorrienteArtistica.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorDeExhibicionExterno.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Distribuidora.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Editorial.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoExhibicion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoTaller.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoTienda.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Escuela.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Escultura.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EsculturaExhibicion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Evento.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventoSala.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Exhibicion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibicionFotografia.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibicionLibro.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibicionObjeto.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibicionPelicula.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibicionPintura.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExhibicionSala.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormatoDeCamara.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fotografia.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Idioma.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Libro.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloMuseo.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloMuseo.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloMuseo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloMuseo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModeloMuseo.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Objeto.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pais.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pelicula.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Periodo.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pintura.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Productora.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Regalo.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sala.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalaTaller.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Taller.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TecnicaEscultura.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TecnicaPintura.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tienda.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoArticulo.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoArtista.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoBoleto.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoEdicion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoEmpleado.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoEvento.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoExhibicion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoGrupo.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoObjeto.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoSala.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoTaller.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoTienda.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoVisita.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ubicacion.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Visita.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Visitante.cs">
+      <DependentUpon>ModeloMuseo.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="ModeloMuseo.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloMuseo.edmx</DependentUpon>
+      <LastGenOutput>ModeloMuseo.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModeloMuseo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModeloMuseo.edmx</DependentUpon>
+      <LastGenOutput>ModeloMuseo.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <EntityDeploy Include="ModeloMuseo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModeloMuseo.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="ModeloMuseo.edmx.diagram">
+      <DependentUpon>ModeloMuseo.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\MuseoMvc\Views\web.config" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Articuloes\Create.cshtml" />
+    <Content Include="Views\Articuloes\Delete.cshtml" />
+    <Content Include="Views\Articuloes\Details.cshtml" />
+    <Content Include="Views\Articuloes\Edit.cshtml" />
+    <Content Include="Views\Articuloes\Index.cshtml" />
+    <Content Include="Views\ArticuloTienda\Create.cshtml" />
+    <Content Include="Views\ArticuloTienda\Delete.cshtml" />
+    <Content Include="Views\ArticuloTienda\Details.cshtml" />
+    <Content Include="Views\ArticuloTienda\Edit.cshtml" />
+    <Content Include="Views\ArticuloTienda\Index.cshtml" />
+    <Content Include="Views\Artistas\Create.cshtml" />
+    <Content Include="Views\Artistas\Delete.cshtml" />
+    <Content Include="Views\Artistas\Details.cshtml" />
+    <Content Include="Views\Artistas\Edit.cshtml" />
+    <Content Include="Views\Artistas\Index.cshtml" />
+    <Content Include="Views\ArtistaEscuelas\Create.cshtml" />
+    <Content Include="Views\ArtistaEscuelas\Delete.cshtml" />
+    <Content Include="Views\ArtistaEscuelas\Details.cshtml" />
+    <Content Include="Views\ArtistaEscuelas\Edit.cshtml" />
+    <Content Include="Views\ArtistaEscuelas\Index.cshtml" />
+    <Content Include="Views\Audioguias\Create.cshtml" />
+    <Content Include="Views\Audioguias\Delete.cshtml" />
+    <Content Include="Views\Audioguias\Details.cshtml" />
+    <Content Include="Views\Audioguias\Edit.cshtml" />
+    <Content Include="Views\Audioguias\Index.cshtml" />
+    <Content Include="Views\Boletoes\Create.cshtml" />
+    <Content Include="Views\Boletoes\Delete.cshtml" />
+    <Content Include="Views\Boletoes\Details.cshtml" />
+    <Content Include="Views\Boletoes\Edit.cshtml" />
+    <Content Include="Views\Boletoes\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\MuseoMvc\Controllers\" />
+    <Folder Include="Areas\MuseoMvc\Data\" />
+    <Folder Include="Areas\MuseoMvc\Views\Shared\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\Museo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61506</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44319/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
