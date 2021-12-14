@@ -1,0 +1,91 @@
+﻿@model WebMVCMuseo.EventoSala
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EventoSala</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaHoraInicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaHoraInicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaHoraFinal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaHoraFinal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaCrea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaCrea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaModifica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaModifica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Evento.codigo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Evento.codigo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sala.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sala.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario1.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario1.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idEventoSala }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
