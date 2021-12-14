@@ -161,6 +161,7 @@
     <Compile Include="Controllers\ArtistasController.cs" />
     <Compile Include="Controllers\AudioguiasController.cs" />
     <Compile Include="Controllers\BoletoesController.cs" />
+    <Compile Include="Controllers\BoletoExhibicionsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="CorrienteArtistica.cs">
       <DependentUpon>ModeloMuseo.tt</DependentUpon>
@@ -434,6 +435,11 @@
     <Content Include="Views\Boletoes\Details.cshtml" />
     <Content Include="Views\Boletoes\Edit.cshtml" />
     <Content Include="Views\Boletoes\Index.cshtml" />
+    <Content Include="Views\BoletoExhibicions\Create.cshtml" />
+    <Content Include="Views\BoletoExhibicions\Delete.cshtml" />
+    <Content Include="Views\BoletoExhibicions\Details.cshtml" />
+    <Content Include="Views\BoletoExhibicions\Edit.cshtml" />
+    <Content Include="Views\BoletoExhibicions\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
