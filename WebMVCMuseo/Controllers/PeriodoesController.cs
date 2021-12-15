@@ -25,7 +25,7 @@ namespace WebMVCMuseo.Controllers
         public ActionResult Details(int? id)
         {
             if (id == null)
-            {  junt
+            {  
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Periodo periodo = db.Periodo.Find(id);
